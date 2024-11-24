@@ -1,9 +1,9 @@
-import { LoginForm } from "../components/login-form";
+import { RegisterForm } from "../../components/register-form";
 
 export default function Page() {
   return (
     <div className="h-screen flex justify-center items-center">
-      <LoginForm />
+      <RegisterForm />
     </div>
   );
 }
