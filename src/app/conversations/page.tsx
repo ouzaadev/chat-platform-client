@@ -5,7 +5,7 @@ export default function page() {
   return (
     <div className="h-screen">
       <ConversationSidebar conversations={conversations} />
-      <div className="ml-[350px]">Conversation Channel</div>
+      <div className="ml-[250px]">Conversation Channel</div>
     </div>
   );
 }
